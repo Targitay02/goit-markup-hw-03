@@ -84,6 +84,7 @@ display: flex;
 
 .nav-list {
 display: flex;
+margin-left: 93px;
 }
 
 .nav-item:not(:last-child) {
@@ -109,7 +110,6 @@ display: flex;
     font-size: 26px;
     line-height: 1.2;
     color: var(--active-color);
-    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -276,10 +276,20 @@ background-color: var(--header-background-color);
 /* Footer */
 .footer {
     background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .logo-footer {
     color: #FFFFFF;;
     }
+
+.address {
+margin-top: 20px;
+}
+
+.address-item:not(:last-child) {
+    padding-bottom: 9px;
+}
 
 .map-link {
     font-size: 14px;
