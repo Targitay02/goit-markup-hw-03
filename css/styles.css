@@ -34,11 +34,13 @@ ul {
 img {
     display: block;
 }
+
 /* Общие классы */
 
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
     font-style: normal;
@@ -53,6 +55,11 @@ img {
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0)
+  }
+
+  .section {
+      padding-top: 94px;
+      padding-bottom: 94px;
   }
 
 /* Header */
@@ -115,7 +122,7 @@ margin-left: 93px;
 }
 
 .header-logo {
-    color: #000000;;
+    color: #000000;
     }
 
 .contacts-list {
@@ -196,7 +203,6 @@ margin: 0 auto;
 /* Преимущества */
 .benefits {
 padding-top: 94px;
-padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -231,12 +237,25 @@ max-width: 270px;
     font-size: 36px;
     line-height: 1.15;
     text-align: center;
-    color:var(--secondary-title-color)
+    color:var(--secondary-title-color);
+    margin-bottom: 50px;
+}
+
+.doing-list {
+display: flex;
+}
+
+.doing-item{
+width: 370px;
+}
+
+.doing-item:not(:last-child) {
+margin-right: 30px;
 }
 
 /* Наша команда */
 .team {
-background-color:var(--section-background-color)
+background-color:var(--section-background-color);
 }
 
 .team-title {
@@ -305,7 +324,7 @@ background-color: var(--header-background-color);
     padding-bottom: 60px;
 }
 .logo-footer {
-    color: #FFFFFF;;
+    color: #FFFFFF;
     }
 
 .address {
@@ -319,7 +338,7 @@ margin-top: 20px;
 .map-link {
     font-size: 14px;
     line-height: 1.7;
-    color: var(--header-background-color)
+    color: var(--header-background-color);
 }
 
 .map-link:hover,
