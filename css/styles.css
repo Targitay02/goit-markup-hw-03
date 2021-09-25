@@ -119,8 +119,6 @@ margin-left: 93px;
     font-size: 26px;
     line-height: 1.2;
     color: var(--active-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .header-logo {
@@ -365,6 +363,10 @@ padding-bottom: 200px;
     color: var(--secondary-title-color);
 }
 
+.project-title:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .project-text {
     font-size: 16px;
     line-height: 1.9;
@@ -376,6 +378,7 @@ padding-bottom: 200px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .logo-footer {
     color: #FFFFFF;
     }
@@ -385,7 +388,7 @@ padding-bottom: 200px;
 }
 
 .address-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .map-link {
